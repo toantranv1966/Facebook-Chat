@@ -22,7 +22,7 @@ function App() {
     }, 2000);
   }, []);
   return (
-    <div>
+    <div className="App">
       {loading ? (
         <PropagateLoader
           color={'#3d2514'}
